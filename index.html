@@ -1,37 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Article preview component</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
+
 <body>
-<h1>Simon</h1>
+    <!-- <div class="container" >
+    <div class="row">
+      <div class="col-md-6">
+        <img src="./images/drawers.jpg" class="img-fluid" alt="Chest of drawers" >
+      </div>
+      <div class="col-md-6">
+        <div class="card" style="height: 100%;" >
+          <div class="card-body">
+            <h5 class="card-title">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h5>
+            <p class="card-text">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+    <div class="container ">
+        <div class="shadow">
+            <div class="card">
+                <div class="row ">
+                    <div class="col-md-4">
+                        <img src="./images/drawers.jpg" class="img-fluid rotated-card-image">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-block p-2">
+                            <h5 class="card-title">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h5>
+                            <p class="card-text">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete </p>
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="./images/avatar-michelle.jpg" class="rounded-circle img-fluid avatar-image" alt="avatar if Michelle">
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <p><b>Michelle Appleton</b></p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="date-text">28 Jun 2020</p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <a href="https://www.bbc.co.uk"><img src="./images/favicon-32x32.png" alt="image link to social media"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+    </div>
+    </div>
 
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
